@@ -2,7 +2,7 @@ import userModel from "../models/userModel.js"
 
 
 
-// ================== ADD EMPLOYE WITH PROFILE IMAGE (assuming admin end-point) =======================//
+// ================== ADD USER WITH PROFILE IMAGE (assuming admin end-point) =======================//
 
 export const uploadImageController = async (req, res) => {
     try {
