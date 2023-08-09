@@ -5,7 +5,7 @@ import { allUserController, deleteUserByIdController, getUserByIdController, upl
 
 const router = express.Router()
 
-//ADD EMPLOYE WITH IMAGE || POST
+//ADD USER WITH IMAGE || POST
 router.post('/add-user', upload.single('pp'), uploadImageController)
 
 //USER REGISTER || POST
